@@ -1,0 +1,889 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    
+    font-family: Arial;
+    background-color: #3c5077;
+    
+}
+
+img {
+
+    -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+-webkit-user-drag: none;
+-khtml-user-drag: none;
+-moz-user-drag: none;
+-o-user-drag: none;
+-ms-user-drag: none;
+
+-webkit-touch-callout: none;
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+video::-webkit-media-controls {
+    display: none;
+}
+
+.wrapper {
+    margin: 20px auto;
+    width: 1000px;
+    height: 720px;
+    background-image: url("images/msg-1111208692-1214.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+    border: 5px solid;
+    
+}
+
+.wrapperWhiteBackground {
+    margin: 20px auto;
+    width: 1000px;
+    height: 720px;
+    background-color: white;
+    padding: 15px;
+    border: 5px solid;
+}
+
+.wrapper #start-text {
+    width: 950px;
+    margin-top: 25%;
+}
+
+.wrapper #docsPic1 {
+    position: absolute;
+    width: 950px;
+    margin-top: 151px;
+}
+
+.wrapper #start-button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 270px;
+    height: 80px;
+    border-radius: 0.8rem;
+    background-image: url("images/generalImages/startButton.png");
+    background-size: cover;
+    background-color: inherit;
+    box-shadow: none;
+    
+}
+
+.wrapper .names {
+    position: absolute;
+    margin-left: 430px;
+    
+}
+
+.wrapper .names h3 {
+    font-size: 18px;
+    color: #5a05b0;
+}
+
+.wrapper .names dt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7816D3;
+}
+
+.wrapper .container {
+    display: flex;
+}
+
+.wrapper .inputArea {
+    position: absolute;
+    display: grid;
+    width: 500px;
+    margin: 220px 250px;
+    color: #fff;
+    place-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.wrapper .inputArea #nameInput {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.wrapper .inputArea #nameInput:hover,
+.wrapper .inputArea #nameInput:focus {
+    background-color: #e8e8e8;
+}
+
+.wrapper .inputArea #inputButton {
+    background-color: #883ecc;
+    width: 200px;
+    height: 50px;
+}
+
+.wrapper .inputArea #inputButton:hover,
+.wrapper .inputArea #unputButton:focus {
+    background-color: #6c33a2;
+}
+
+.wrapper .conformation {
+    visibility: hidden;
+    position: absolute;
+    margin: 250px 260px;
+    width: 450px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #7816D3;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.wrapper .conformation #noButton, #yesButton {
+    background-color: #fff;
+    display: inline;
+    color: #000000;
+    margin-top: 30px;
+    width: 40px;
+    height: 28px;
+    
+}
+
+.wrapper .conformation #noButton:hover, #yesButton:hover,
+.wrapper .conformation #noButton:focus, #yesButton:focus {
+    background-color: #d6d4d4;
+}
+
+.wrapper .container #docPic1 {
+    width: 380px;
+    margin-top: 185px;
+}
+
+.wrapper .container #docDialog1 {
+    position: absolute;
+    width: 700px;
+    margin-top: 180px;
+    margin-left: 210px;
+}
+
+.wrapper #dialogText {
+    position: absolute;
+    text-align: center;
+    font: #44546a bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 200px 445px;
+    width: 420px;
+    font-size: 36px;
+    -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+}
+
+.wrapper .container .progress-buttons {
+    position: absolute;
+    display: grid;
+    margin-top: 520px;
+    margin-left: 340px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    
+}
+
+.wrapper .container .progress-button {
+    width: 300px;
+    height: 105px;    
+    background-size: cover;
+    background-color: inherit;
+    box-shadow: none;
+}
+
+
+
+.wrapper .container #docPic2 {
+    width: 360px;
+    margin-top: 185px;
+}
+
+.wrapper .container #docDialog2 {
+    position: absolute;
+    width: 700px;
+    margin-top: 170px;
+    margin-left: 210px;
+}
+
+.wrapper .container #docPic2-2 {
+    position: absolute;
+    width: 340px;
+    margin-top: 240px;
+    
+}
+
+.wrapper .container #docDialog3 {
+    position: absolute;
+    width: 800px;
+    margin-top: 0px;
+    margin-left: 60px;
+}
+
+.wrapper .container #docDialog3-2 {
+    position: absolute;
+    width: 800px;
+    margin-top: 0px;
+    margin-left: 60px;
+}
+
+.wrapper .timer {
+    font-size: 25px;
+    position: absolute;
+    margin-top: 665px;
+    margin-left: 475px;
+    
+}
+
+.wrapper .container #topics-button {
+    position: absolute;
+    margin-top: 425px;
+    margin-left: 450px;
+    width: 350px;
+    height: 145px;
+    background-image: url("images/generalImages/topicsB.png");
+    background-size: cover;
+    background-color: inherit;
+    box-shadow: none;
+}
+
+.wrapper .container #topic1 {
+    position: absolute;
+    width: 240px;
+    margin-top: 180px;
+    margin-left: 200px;
+}
+.wrapper .container #topic2 {
+    position: absolute;
+    width: 240px;
+    margin-top: 180px;
+    margin-left: 455px;
+}
+.wrapper .container #topic3 {
+    position: absolute;
+    width: 260px;
+    margin-top: 180px;
+    margin-left: 703px;
+}
+.wrapper .container #topic4 {
+    position: absolute;
+    width: 240px;
+    margin-top: 320px;
+    margin-left: 200px;
+}
+.wrapper .container #topic5 {
+    position: absolute;
+    width: 240px;
+    margin-top: 313px;
+    margin-left: 455px;
+    
+}
+.wrapper .container #topic6 {
+    position: absolute;
+    width: 245px;
+    margin-top: 320px;
+    margin-left: 710px;
+}
+.wrapper .container #topic7 {
+    position: absolute;
+    width: 240px;
+    margin-top: 460px;
+    margin-left: 200px;
+}
+.wrapper .container #topic8 {
+    position: absolute;
+    width: 240px;
+    margin-top: 460px;
+    margin-left: 455px;
+}
+
+.wrapper .container #topic9 {
+    position: absolute;
+    width: 240px;
+    margin-top: 458px;
+    margin-left: 710px;
+}
+
+.wrapper .container #contentsTableText {
+    position: absolute;
+    width: 600px;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+
+.wrapper .container #contentsTableText2 {
+    position: absolute;
+    width: 580px;
+    margin-top: 100px;
+    margin-top: 350px;
+    transition: 0.5s;
+}
+
+.wrapper .container #docPic3 {
+    position: absolute;
+    width: 500px;
+    margin-top: 227px;
+    margin-left: 620px;
+}
+
+.wrapper .container #docDialog4 {
+    position: absolute;
+    width: 320px;
+    margin-top: 90px;
+    margin-left: 650px;
+}
+
+.wrapper #luxation-text {
+    position: absolute;
+    width: 950px;
+    margin-top: 50px;
+}
+
+.wrapper .luxation-buttons {
+    position: absolute;
+    margin-top: 250px;
+}
+
+.wrapper .luxation-buttons button {
+    position: absolute;
+    border: white solid 2px;
+    border-radius: 10px;
+    width: 290px;
+    height: 120px;
+}
+
+.wrapper .fracture-buttons {
+    position: absolute;
+    margin-top: 90px;
+}
+
+.wrapper .luxation-buttons button h1{
+    color: black;
+}
+
+.wrapper .fracture-buttons button {
+    position: absolute;
+    border: white solid 2px;
+    border-radius: 10px;
+    width: 320px;
+    height: 120px;
+    
+}
+
+.wrapper .fracture-buttons button h1{
+    color: black;
+}
+
+.wrapper .luxation-buttons #concussion {
+    background-color: #FB8738;
+    margin-top: 0px;
+    margin-left: 130px;
+}
+
+.wrapper .luxation-buttons #concussion:hover,
+.wrapper .luxation-buttons #concussion:focus {
+    background-color: #d7691f;
+  }
+
+.wrapper .luxation-buttons #subluxation {
+    background-color: #FFCC05;
+    margin-top: 0px;
+    margin-left: 530px;
+}
+.wrapper .luxation-buttons #subluxation:hover,
+.wrapper .luxation-buttons #subluxation:focus {
+    background-color: #d7af0e;
+  }
+
+  .wrapper .luxation-buttons #extrusive-luxation {
+    background-color: #7816D3;
+    margin-top: 180px;
+    margin-left: 0px;
+}
+.wrapper .luxation-buttons #extrusive-luxation:hover,
+.wrapper .luxation-buttons #extrusive-luxation:focus {
+    background-color: #6107b6;
+  }
+
+.wrapper .luxation-buttons #intrusive-luxation {
+    background-color: #FFA4D9;
+    margin-top: 180px;
+    margin-left: 335px;
+}
+.wrapper .luxation-buttons #intrusive-luxation:hover,
+.wrapper .luxation-buttons #intrusive-luxation:focus {
+    background-color: #da77b1;
+  }
+
+.wrapper .luxation-buttons #lateral-luxation {
+    background-color: #9DDD58;
+    margin-top: 180px;
+    margin-left: 670px;
+}
+.wrapper .luxation-buttons #lateral-luxation:hover,
+.wrapper .luxation-buttons #lateral-luxation:focus {
+    background-color: #7bb938;
+}
+
+
+
+
+
+
+
+
+
+.wrapper .fracture-buttons #UncomplicatedCrownFracture {
+    background-color: #A46FFF;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.wrapper .fracture-buttons #UncomplicatedCrownFracture:hover,
+.wrapper .fracture-buttons #UncomplicatedCrownFracture:focus {
+    background-color: #7d4dd1;
+}
+
+.wrapper .fracture-buttons #ComplicatedCrownFracture {
+    background-color: #F3DC5A;
+    margin-top: 60px;
+    margin-left: 595px;
+}
+
+.wrapper .fracture-buttons #ComplicatedCrownFracture:hover,
+.wrapper .fracture-buttons #ComplicatedCrownFracture:focus {
+    background-color: #c3ae37;
+}
+
+.wrapper .fracture-buttons #RootFracture {
+    background-color: #97CF6A;
+    margin-top: 190px;
+    margin-left: 350px;
+}
+
+.wrapper .fracture-buttons #RootFracture:hover,
+.wrapper .fracture-buttons #RootFracture:focus {
+    background-color: #66a136;
+}
+
+.wrapper .fracture-buttons #UncomplicatedCrown-rootFracture {
+    background-color: #6F05D9;
+    margin-top: 320px;
+    margin-left: 100px;
+}
+
+.wrapper .fracture-buttons #UncomplicatedCrown-rootFracture:hover,
+.wrapper .fracture-buttons #UncomplicatedCrown-rootFracture:focus {
+    background-color: #5a05b0;
+}
+
+.wrapper .fracture-buttons #ComplicatedCrown-rootFracture {
+    background-color: #D8B638;
+    margin-top: 320px;
+    margin-left: 595px;
+}
+
+.wrapper .fracture-buttons #ComplicatedCrown-rootFracture:hover,
+.wrapper .fracture-buttons #ComplicatedCrown-rootFracture:focus {
+    background-color: #b1901b;
+}
+
+.wrapper .fracture-buttons #AlveolarFracture {
+    background-color: #E2A1D1;
+    margin-top: 450px;
+    margin-left: 350px;
+}
+
+.wrapper .fracture-buttons #AlveolarFracture:hover,
+.wrapper .fracture-buttons #AlveolarFracture:focus {
+    background-color: #c073ab;
+}
+
+
+
+.wrapper #concussionImages {
+    position: absolute;
+    width: 350px;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+
+.wrapper #CaseInfo {
+    position: absolute;
+    width: 990px;
+}
+
+.wrapper #CaseInfo2 {
+    position: absolute;
+    width: 1100px;
+}
+
+.wrapper #CaseInfo3 {
+    position: absolute;
+    width: 970px;
+}
+
+.wrapper #question {
+    position: absolute;
+    text-align: center;
+    width: 950px;
+    margin-top: 420px;
+}
+
+.wrapper .answer-area {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 490px;
+}
+
+.answer-area input {
+    visibility: hidden;
+}
+
+
+  .answer-area div {
+    
+    color: #292929;
+    border-radius: 0.25em;
+    background: #efefef;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+    transition: 0.3s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .answer-area label h1 {
+    font-size: 1em;
+    font-family: "Lato", sans-serif;
+  }
+  .answer-area label:hover {
+    cursor: pointer;
+    
+    color: #101010;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.32);
+  }
+  .answer-area label:active {
+    transform: translateY(2px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0px -1px 0 rgba(0, 0, 0, 0.22);
+  }
+
+ 
+.wrapper .answer-area .answer {
+    
+    padding: 15px;
+    width: 450px;
+    height: 60px;
+    border-radius: 10px 10px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    border: white solid 3px;
+    background-color: #EACE38;
+}
+
+.wrapper .answer-area div input[type="Radio"]:checked + label{
+    color: #0064bd;
+}
+
+.wrapper #GameText {
+    position: absolute;
+    width: 700px;
+    display: block;
+    margin-left: 120px;
+}
+
+.wrapper #GameText2 {
+    position: absolute;
+    width: 900px;
+    display: block;
+    margin-left: 30px;
+}
+
+.wrapper #GameInstrucation {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 290px;
+}
+
+.wrapper .answer-image img{
+    position: absolute;
+    width: 450px;
+    margin-top: 150px;
+    margin-left: 255px;
+    padding: 15px;
+}
+
+.wrapper .answer-image video{
+    position: absolute;
+    width: 400px;
+    margin-left: 275px;
+    margin-top: 200px;
+    padding: 15px;
+}
+
+.wrapper .answers-list {
+    position: absolute;
+    display: grid;
+    margin-top: 490px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px
+    
+}
+.wrapper .answers-list .dragAnswer img {
+    width: 165px;
+    
+}
+
+.wrapper .answers-list .dragAnswer {
+    height: 140px;
+    padding: 10px;
+    cursor: move;
+}
+
+.wrapperWhiteBackground .videoContainer {
+    width: 965px;
+    height: 650px;
+    border: solid 10px #3c5077;
+    border-radius: 8px;
+}
+
+.wrapperWhiteBackground .videoContainer #repositionText {
+    position: absolute;
+    width: 500px;
+    margin-top: 150px;
+}
+
+.wrapperWhiteBackground .preFractureBorder {
+    width: 965px;
+    height: 650px;
+    border: solid 10px #5A2B69;
+    border-radius: 8px;
+}
+
+.wrapperWhiteBackground #docPic4 {
+    position: absolute;
+    width: 180px;
+    margin-top: 81.8px;
+    margin-left: 136px;
+}
+
+.wrapperWhiteBackground #docDialog5 {
+    position: absolute;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+.wrapperWhiteBackground #no-button {
+    margin-top: 280px;
+    margin-left: 435px;
+    width: 250px;
+    height: 90px;
+    background-image: url("images/generalImages/NoB.png");
+    background-size: cover;
+    background-color: inherit;
+    box-shadow: none;
+}
+
+.wrapper #fracture-text {
+    position: absolute;
+    width: 850px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.wrapper .container #UncomplicatedCrownFractureInfo {
+    width: 1035px;
+    margin-top: 141px;
+}
+
+.wrapper .container #UncomplicatedCrown_rootFractureInfo {
+    width: 1120px;
+    margin-top: 36px;
+}
+
+.wrapper .container #ComplicatedCrownImages {
+    position: absolute;
+    width: 800px;
+    margin-top: 380px;
+    
+}
+
+.wrapper .container #ComplicatedCrown_rootImages {
+    position: absolute;
+    width: 900px;
+    margin-top: 310px;
+    margin-left: 30px;
+}
+
+.wrapper .container #RootImages {
+    position: absolute;
+    width: 700px;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+
+.wrapper .container #RootImages2 {
+    position: absolute;
+    width: 900px;
+    margin-top: 350px;
+    margin-left: 35px;
+}
+
+.wrapper .container #docPic5 {
+    width: 300px;
+    margin-top: 114px;
+}
+
+.wrapper .container .summary-list1 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin-top: 100px;
+    margin-left: 290px;
+}
+
+.wrapper .container .summary-list2 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 100px;
+    margin-left: 270px;
+}
+
+.wrapper .container .summary-list2 img {
+    width: 700px;
+}
+
+.wrapper .container .summary-list1 img {
+    width: 340px;
+}
+
+.wrapper .container #docsPic2 {
+    display: block;
+    width: 950px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper .container .logoArea {
+    position: absolute;
+    text-align: center;
+    display: grid;
+    margin: 515px 430px;
+}
+
+.wrapper .container .logoArea #logoText {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5a05b0;
+}
+
+.wrapper .container .logoArea img {
+    width: 150px;
+}
+
+#next-button {
+    position: absolute; 
+    display: block;
+    width: 100px;
+    height: 35px;
+    margin-top: 658px;
+    margin-left: 850px;
+}
+
+#back-button {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 35px;
+    margin-top: 658px;
+}
+
+#end-button {
+    background-color: #7816D3;
+    position: absolute; 
+    display: block;
+
+    width: 300px;
+    height: 100px;
+    margin-top: 300px;
+    margin-left: 350px;
+
+}
+
+#end-button:hover,
+#end-button:focus {
+    background-color: #5705a4;
+}
+
+#end-button:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+button {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+ 
+  white-space: nowrap;
+}
+
+
+button:hover,
+button:focus {
+  background-color: #07c;
+}
+
+button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+button:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+
